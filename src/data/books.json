@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "synopsis": "A classic novel about the struggles of a disenchanted teenager."
+    },
+    {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "synopsis": "A story of racial injustice, moral growth, and compassion in the American South."
+    },
+    {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "synopsis": "A dystopian novel exploring the consequences of government overreach and surveillance."
+    },
+    {
+        "id": 4,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "synopsis": "An exploration of the American Dream through the life of Jay Gatsby."
+    },
+    {
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "synopsis": "A classic tale of love, class, and societal expectations in 19th-century England."
+    },
+    {
+        "id": 6,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "synopsis": "The first book in the magical series about Hogwarts and Harry Potter's adventures."
+    },
+    {
+        "id": 7,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "synopsis": "An adventurous journey through Middle-earth with Bilbo Baggins."
+    },
+    {
+        "id": 8,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "synopsis": "A gripping mystery combining art, history, and secret societies."
+    },
+    {
+        "id": 9,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "synopsis": "Set in a dystopian future, the story follows a young girl's fight for survival in a televised competition."
+    },
+    {
+        "id": 10,
+        "title": "Lord of the Flies",
+        "author": "William Golding",
+        "synopsis": "A tale of survival and the dark descent into chaos as a group of boys is stranded on an uninhabited island."
+    }
+]
