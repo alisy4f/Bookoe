@@ -1,14 +1,16 @@
+import Footer from "./component/Footer"
+import { Outlet } from "react-router-dom"
+import Navigation from "./component/Navigation"
 
-import './App.css'
-import Navigation from './component/Navigation'
-import { Outlet } from 'react-router-dom'
+
 
 function App() {
+
   return (
     <>
-        <Navigation/>
-        <Outlet/>
-      
+      <Navigation/>
+      <Outlet/>
+      <Footer/>
     </>
   )
 }

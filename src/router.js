@@ -1,9 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom'
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import BookListPage from './pages/BookListPage'
-import BookDetailsPage from './pages/BookDetailsPage'
+
 import App from './App'
+import AllPage from './pages/AllPage'
+import Latest from './pages/Latest'
+import TopPicks from './pages/TopPicks'
+import DetailsBook from './pages/DetailsBook'
 
 // Advanced routing / Nested routing
 const router = createBrowserRouter([
@@ -13,22 +14,22 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '',
-                Component: HomePage
+                Component: AllPage
             },
             {
-                path: 'about',
-                Component: AboutPage
+                path: 'Latest',
+                Component: Latest
+            },
+            {
+                path: 'TopPicks',
+                Component: TopPicks
             },
             {
                 path: 'books',
                 children: [
                     {
-                        path: '',
-                        Component: BookListPage
-                    },
-                    {
                         path: ':id',
-                        Component: BookDetailsPage
+                        Component: DetailsBook
                     }
                 ]
             },
