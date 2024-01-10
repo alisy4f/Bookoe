@@ -13,7 +13,7 @@ const SingleBook = () => {
         const url = ENDPOINT + `api/books/${id}`
         const resp = await fetch(url)
         const json = await resp.json();
-        setState(json.data)
+        setState(json)
     }
 
     console.log(state);
